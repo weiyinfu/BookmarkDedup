@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="haha.js"></script>
+    <style>
+        body {
+            width: 400px;
+            margin: 20px;
+        }
+
+        li {
+            font-size: 15px;
+        }
+
+        #output {
+            margin-top: 30px;
+        }
+
+        #go {
+            background-color: #3333d0;
+            color: white;
+            font-size: 16px;
+            width: 100%;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div class="info">
+        <ul>
+            <li>运行之前请备份文件，对书签更改完之后无法恢复</li>
+            <li>如果存在重复书签，则自动删除路径较短的那一条书签记录</li>
+            <li>如果两个文件夹到根路径的结点名称列表相同，则这两个文件夹会自动合并</li>
+            <li>如果一个文件夹为空，则会自动删除这个空文件夹</li>
+        </ul>
+    </div>
+    <div class="operation">
+        <button id="go" class="ripple">开始整理</button>
+    </div>
+    <div id="output"></div>
+</div>
+</body>
+</html>
