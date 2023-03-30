@@ -1,5 +1,5 @@
 {
-  "name": "书签去重",
+  "name": "BookmarkDedup",
   "description": "书签去重",
   "version": "1.0",
   "manifest_version": 2,
@@ -7,9 +7,7 @@
     "128": "book.png",
     "32": "book.png"
   },
-  "permissions": [
-    "bookmarks"
-  ],
+  "permissions": ["bookmarks"],
   "browser_action": {
     "default_popup": "haha.html"
   }
